@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
 
 *{
 	padding:0;
@@ -11,22 +11,36 @@ body{
 	background:#f8f8f8;
 }
 
+h1 {
+	font-family: 'helvetica';
+	font-weight: bold;
+	font-size: 120px;
+}
+
 a{
 	text-decoration: none;
-	color:#666;
+	color:#0000ff;
 }
+
 	a:hover{
-		color:#999;
+		text-decoration: underline;
 	}
+
 p{
 	line-height: 2em;
 	margin:0 0 20px;
-	text-align: center;
+	text-align: left;
 }
 
 .wrap{
 	max-width: 600px;
 	margin:150px auto;
+}
+
+#container {
+	width: 65%;
+	margin: 0 auto;
+	text-align: left;
 }
 
 .type-wrap{
